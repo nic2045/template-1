@@ -7,7 +7,7 @@
   "bump-patch-for-minor-pre-major": true,
   "packages": {
     ".": {
-      "package-name": "template-1",
+      "package-name": "pyshell-starter",
       "extra-files": [
         {
           "type": "toml",
@@ -16,11 +16,11 @@
         },
         {
           "type": "generic",
-          "path": "powershell/Template.psd1"
+          "path": "powershell/PyShellStarter.psd1"
         },
         {
           "type": "generic",
-          "path": "src/template_1/__init__.py"
+          "path": "src/pyshell_starter/__init__.py"
         }
       ]
     }

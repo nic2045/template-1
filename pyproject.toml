@@ -3,9 +3,9 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "template-1"
+name = "pyshell-starter"
 version = "0.1.1"
-description = "Template repository for Python and PowerShell"
+description = "Modern starter template for projects that ship Python and PowerShell side by side"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
