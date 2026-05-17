@@ -1,5 +1,5 @@
 BeforeAll {
-    Import-Module "$PSScriptRoot/../powershell/Template.psd1" -Force
+    Import-Module "$PSScriptRoot/../powershell/PyShellStarter.psd1" -Force
 }
 
 Describe 'Get-Greeting' {
