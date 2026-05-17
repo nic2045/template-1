@@ -1,5 +1,15 @@
 # template-1
 
+[![CI - Python](https://github.com/nic2045/template-1/actions/workflows/ci-python.yml/badge.svg)](https://github.com/nic2045/template-1/actions/workflows/ci-python.yml)
+[![CI - PowerShell](https://github.com/nic2045/template-1/actions/workflows/ci-powershell.yml/badge.svg)](https://github.com/nic2045/template-1/actions/workflows/ci-powershell.yml)
+[![release-please](https://github.com/nic2045/template-1/actions/workflows/release-please.yml/badge.svg)](https://github.com/nic2045/template-1/actions/workflows/release-please.yml)
+[![Latest release](https://img.shields.io/github/v/release/nic2045/template-1?sort=semver)](https://github.com/nic2045/template-1/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](pyproject.toml)
+[![PowerShell](https://img.shields.io/badge/powershell-5.1%2B%20%7C%20pwsh-blue.svg)](powershell/Template.psd1)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://www.conventionalcommits.org/)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+
 Opinionated template repository for projects that combine **Python** and **PowerShell**.
 
 Use the green **Use this template** button on GitHub to bootstrap a new project from this repo.
