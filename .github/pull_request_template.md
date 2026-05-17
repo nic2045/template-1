@@ -1,19 +1,19 @@
 <!--
-Titel bitte als Conventional Commit, z.B.:
-  feat: neue Funktion X
-  fix: behebt Y
+PR title must follow Conventional Commits, e.g.:
+  feat: add new function X
+  fix: handle null in Y
 -->
 
-## Was ändert sich?
+## What changes?
 
 -
 
-## Warum?
+## Why?
 
 -
 
-## Checkliste
+## Checklist
 
-- [ ] Tests hinzugefügt/aktualisiert
-- [ ] Lint läuft lokal sauber durch (`ruff` / `PSScriptAnalyzer`)
-- [ ] Commit-Messages folgen Conventional Commits
+- [ ] Tests added/updated
+- [ ] Lint passes locally (`ruff` / `PSScriptAnalyzer`)
+- [ ] Commit messages follow Conventional Commits

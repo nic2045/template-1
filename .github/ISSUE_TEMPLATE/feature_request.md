@@ -1,12 +1,12 @@
 ---
 name: Feature Request
-about: Schlage eine neue Funktion vor
+about: Suggest a new feature
 title: "feat: "
 labels: enhancement
 ---
 
-## Problem / Motivation
+## Problem / motivation
 
-## Vorgeschlagene Lösung
+## Proposed solution
 
-## Alternativen
+## Alternatives considered
