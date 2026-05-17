@@ -3,11 +3,11 @@ BeforeAll {
 }
 
 Describe 'Get-Greeting' {
-    It 'gibt Standard-Gruss zurueck' {
+    It 'returns the default greeting' {
         Get-Greeting | Should -Be 'Hello, world!'
     }
 
-    It 'gibt Gruss mit Namen zurueck' {
+    It 'returns a greeting with the given name' {
         Get-Greeting -Name 'Claude' | Should -Be 'Hello, Claude!'
     }
 }

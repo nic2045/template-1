@@ -1,23 +1,23 @@
 ---
 name: Bug Report
-about: Melde einen Fehler
+about: Report a bug
 title: "fix: "
 labels: bug
 ---
 
-## Beschreibung
+## Description
 
-## Reproduktion
+## Reproduction
 
 1.
 2.
 3.
 
-## Erwartetes Verhalten
+## Expected behavior
 
-## Tatsächliches Verhalten
+## Actual behavior
 
-## Umgebung
+## Environment
 
 - OS:
-- Python / PowerShell Version:
+- Python / PowerShell version:
