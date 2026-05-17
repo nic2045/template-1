@@ -12,7 +12,7 @@ Use the green **Use this template** button on GitHub to bootstrap a new project 
 | Python tests | [`pytest`](https://docs.pytest.org/) |
 | PowerShell lint | [`PSScriptAnalyzer`](https://learn.microsoft.com/powershell/utility-modules/psscriptanalyzer/overview) |
 | PowerShell tests | [`Pester`](https://pester.dev/) |
-| CI | GitHub Actions (Python 3.10–3.12, PowerShell on Ubuntu + Windows) |
+| CI | GitHub Actions, path-filtered per language (Python 3.10–3.12, PowerShell on Ubuntu + Windows) |
 | Releases | [`release-please`](https://github.com/googleapis/release-please) |
 | PR hygiene | Conventional Commits enforced via PR title check |
 | Dependencies | Dependabot (GitHub Actions + pip, weekly) |
@@ -26,7 +26,7 @@ Use the green **Use this template** button on GitHub to bootstrap a new project 
 ├── tests/                 # pytest + Pester tests
 ├── powershell/            # PowerShell module (psm1 + psd1)
 ├── .github/
-│   ├── workflows/         # ci.yml, release-please.yml, pr-title.yml
+│   ├── workflows/         # ci-python.yml, ci-powershell.yml, release-please.yml, pr-title.yml
 │   ├── ISSUE_TEMPLATE/
 │   └── dependabot.yml
 ├── pyproject.toml
