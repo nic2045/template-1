@@ -1,6 +1,8 @@
 # PyShell Starter
 
 > Modern starter template for projects that ship **Python** and **PowerShell** side by side.
+>
+> *Formerly `template-1`. Import path is now `pyshell_starter`; PowerShell module is `PyShellStarter`.*
 
 [![CI - Python](https://github.com/nic2045/template-1/actions/workflows/ci-python.yml/badge.svg)](https://github.com/nic2045/template-1/actions/workflows/ci-python.yml)
 [![CI - PowerShell](https://github.com/nic2045/template-1/actions/workflows/ci-powershell.yml/badge.svg)](https://github.com/nic2045/template-1/actions/workflows/ci-powershell.yml)
