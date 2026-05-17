@@ -15,7 +15,7 @@ Use the green **Use this template** button on GitHub to bootstrap a new project 
 | CI | GitHub Actions, path-filtered per language (Python 3.10–3.12, PowerShell on Ubuntu + Windows) |
 | Releases | [`release-please`](https://github.com/googleapis/release-please) |
 | PR hygiene | Conventional Commits enforced via PR title check |
-| Dependencies | Dependabot (GitHub Actions + pip, weekly) |
+| Dependencies | Dependabot (GitHub Actions + pip, weekly), auto-merge for patch & minor |
 | Editor consistency | `.editorconfig` |
 
 ## Repository layout
@@ -26,7 +26,7 @@ Use the green **Use this template** button on GitHub to bootstrap a new project 
 ├── tests/                 # pytest + Pester tests
 ├── powershell/            # PowerShell module (psm1 + psd1)
 ├── .github/
-│   ├── workflows/         # ci-python.yml, ci-powershell.yml, release-please.yml, pr-title.yml
+│   ├── workflows/         # ci-python.yml, ci-powershell.yml, release-please.yml, pr-title.yml, dependabot-automerge.yml
 │   ├── ISSUE_TEMPLATE/
 │   └── dependabot.yml
 ├── pyproject.toml
